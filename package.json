@@ -1,8 +1,8 @@
 {
-  "name": "hiepnt",
-  "version": "1.1.1",
-  "description": "packages",
-  "main": "index.js",
+  "name": "measure-runtime",
+  "version": "1.0.2",
+  "description": "measure runtime decorator",
+  "main": "measure-runtime.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

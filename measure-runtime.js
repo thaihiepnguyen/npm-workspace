@@ -1,4 +1,4 @@
-function MeasureRunTime(target, name, descriptor) {
+module.exports = function MeasureRunTime(target, name, descriptor) {
   const fn = descriptor.value;
 
   if (typeof fn == 'function') {
@@ -12,10 +12,4 @@ function MeasureRunTime(target, name, descriptor) {
   }
 
   return descriptor;
-}
-
-
-
-module.export = {
-  MeasureRunTime
 }
