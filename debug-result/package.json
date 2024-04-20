@@ -1,0 +1,23 @@
+{
+  "name": "debug-result",
+  "version": "1.0.3",
+  "description": "debug the result of a function via decorator",
+  "main": "debug-result.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaihiepnguyen/npm-workspace.git"
+  },
+  "keywords": [
+    "debug",
+    "decorator"
+  ],
+  "author": "hiepnt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thaihiepnguyen/npm-workspace/issues"
+  },
+  "homepage": "https://github.com/thaihiepnguyen/npm-workspace#readme"
+}
