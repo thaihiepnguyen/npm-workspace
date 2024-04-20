@@ -1,6 +1,6 @@
 {
   "name": "debug-result",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "debug the result of a function via decorator",
   "main": "debug-result.js",
   "scripts": {

@@ -1,4 +1,4 @@
-module.exports = async function MeasureRunTime(target, name, descriptor) {
+module.exports = function MeasureRunTime(target, name, descriptor) {
   const fn = descriptor.value;
 
   if (typeof fn == 'function') {

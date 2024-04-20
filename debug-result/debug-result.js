@@ -1,4 +1,4 @@
-module.exports = async function DebugResult(target, name, descriptor) {
+module.exports = function DebugResult(target, name, descriptor) {
   const fn = descriptor.value;
 
   if (typeof fn == 'function') {
